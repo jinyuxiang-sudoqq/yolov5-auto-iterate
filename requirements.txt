@@ -1,0 +1,3 @@
+# 本流水线依赖它所在的 YOLOv5 仓库（models.* / utils.*），
+# 请先装好 YOLOv5 自己的 requirements.txt，再补下面这条：
+PyYAML>=6.0

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 流水线的工作目录产物（这些都是运行时数据，不入库）
+data/unlabeled/
+data/auto_agreed/
+data/need_review/
+data/review_drafts/
+data/approved/
+
+# 模型权重
+*.pt
+*.onnx
+*.engine
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
